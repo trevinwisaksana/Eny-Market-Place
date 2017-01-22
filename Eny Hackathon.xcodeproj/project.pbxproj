@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD8901301E331FB700AC65D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89012F1E331FB700AC65D2 /* AppDelegate.swift */; };
+		DD8901321E331FB700AC65D2 /* PairVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8901311E331FB700AC65D2 /* PairVC.swift */; };
+		DD8901351E331FB700AC65D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8901331E331FB700AC65D2 /* Main.storyboard */; };
+		DD8901381E331FB700AC65D2 /* Eny_Hackathon.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD8901361E331FB700AC65D2 /* Eny_Hackathon.xcdatamodeld */; };
+		DD89013A1E331FB700AC65D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD8901391E331FB700AC65D2 /* Assets.xcassets */; };
+		DD89013D1E331FB700AC65D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD89013B1E331FB700AC65D2 /* LaunchScreen.storyboard */; };
+		DD8901481E331FB700AC65D2 /* Eny_HackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8901471E331FB700AC65D2 /* Eny_HackathonTests.swift */; };
+		DD8901541E3320E100AC65D2 /* JKAbode-Demo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD8901531E3320BF00AC65D2 /* JKAbode-Demo.ttf */; };
+		DD8901591E33272500AC65D2 /* Eurostile.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DD8901581E33270900AC65D2 /* Eurostile.ttf */; };
+		DD89015B1E3331EE00AC65D2 /* BuyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89015A1E3331EE00AC65D2 /* BuyVC.swift */; };
+		DD89015D1E33A33F00AC65D2 /* ShopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89015C1E33A33F00AC65D2 /* ShopVC.swift */; };
+		DD89015F1E33A47E00AC65D2 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89015E1E33A47E00AC65D2 /* MenuVC.swift */; };
+		DD8901621E33CEBD00AC65D2 /* MenuVC + CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8901611E33CEBD00AC65D2 /* MenuVC + CollectionView.swift */; };
+		DD8901651E33CF2000AC65D2 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8901641E33CF2000AC65D2 /* MenuCell.swift */; };
+		DD8901681E33CF6900AC65D2 /* PresetDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8901671E33CF6900AC65D2 /* PresetDataModel.swift */; };
+		DD89016B1E33EE6A00AC65D2 /* BuyVC + CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89016A1E33EE6A00AC65D2 /* BuyVC + CollectionView.swift */; };
+		DD89016D1E33F05400AC65D2 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89016C1E33F05400AC65D2 /* ProductCell.swift */; };
+		DD89016F1E33F83A00AC65D2 /* ProductDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD89016E1E33F83A00AC65D2 /* ProductDataModel.swift */; };
+		DD8901721E340D4600AC65D2 /* ShopVC + CollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8901711E340D4600AC65D2 /* ShopVC + CollectionView.swift */; };
+		DD8901741E341C3400AC65D2 /* PurchasedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8901731E341C3400AC65D2 /* PurchasedCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD8901441E331FB700AC65D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD8901241E331FB700AC65D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD89012B1E331FB700AC65D2;
+			remoteInfo = "Eny Hackathon";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD89012C1E331FB700AC65D2 /* Eny Hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Eny Hackathon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD89012F1E331FB700AC65D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD8901311E331FB700AC65D2 /* PairVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PairVC.swift; path = "Eny Hackathon/PairVC.swift"; sourceTree = "<group>"; };
+		DD8901341E331FB700AC65D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD8901371E331FB700AC65D2 /* Eny_Hackathon.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Eny_Hackathon.xcdatamodel; sourceTree = "<group>"; };
+		DD8901391E331FB700AC65D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD89013C1E331FB700AC65D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD89013E1E331FB700AC65D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8901431E331FB700AC65D2 /* Eny HackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Eny HackathonTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD8901471E331FB700AC65D2 /* Eny_HackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Eny_HackathonTests.swift; sourceTree = "<group>"; };
+		DD8901491E331FB700AC65D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8901531E3320BF00AC65D2 /* JKAbode-Demo.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "JKAbode-Demo.ttf"; sourceTree = "<group>"; };
+		DD8901581E33270900AC65D2 /* Eurostile.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eurostile.ttf; sourceTree = "<group>"; };
+		DD89015A1E3331EE00AC65D2 /* BuyVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuyVC.swift; sourceTree = "<group>"; };
+		DD89015C1E33A33F00AC65D2 /* ShopVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopVC.swift; sourceTree = "<group>"; };
+		DD89015E1E33A47E00AC65D2 /* MenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		DD8901611E33CEBD00AC65D2 /* MenuVC + CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MenuVC + CollectionView.swift"; sourceTree = "<group>"; };
+		DD8901641E33CF2000AC65D2 /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		DD8901671E33CF6900AC65D2 /* PresetDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PresetDataModel.swift; sourceTree = "<group>"; };
+		DD89016A1E33EE6A00AC65D2 /* BuyVC + CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BuyVC + CollectionView.swift"; sourceTree = "<group>"; };
+		DD89016C1E33F05400AC65D2 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		DD89016E1E33F83A00AC65D2 /* ProductDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductDataModel.swift; sourceTree = "<group>"; };
+		DD8901711E340D4600AC65D2 /* ShopVC + CollectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ShopVC + CollectionView.swift"; sourceTree = "<group>"; };
+		DD8901731E341C3400AC65D2 /* PurchasedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PurchasedCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD8901291E331FB700AC65D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8901401E331FB700AC65D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD8901231E331FB700AC65D2 = {
+			isa = PBXGroup;
+			children = (
+				DD8901661E33CF5D00AC65D2 /* Models */,
+				DD8901631E33CF1600AC65D2 /* Views */,
+				DD8901551E33227D00AC65D2 /* Controllers */,
+				DD8901521E3320A600AC65D2 /* Supporting Files */,
+				DD89012E1E331FB700AC65D2 /* Eny Hackathon */,
+				DD8901461E331FB700AC65D2 /* Eny HackathonTests */,
+				DD89012D1E331FB700AC65D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD89012D1E331FB700AC65D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD89012C1E331FB700AC65D2 /* Eny Hackathon.app */,
+				DD8901431E331FB700AC65D2 /* Eny HackathonTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD89012E1E331FB700AC65D2 /* Eny Hackathon */ = {
+			isa = PBXGroup;
+			children = (
+				DD89012F1E331FB700AC65D2 /* AppDelegate.swift */,
+				DD8901331E331FB700AC65D2 /* Main.storyboard */,
+				DD8901391E331FB700AC65D2 /* Assets.xcassets */,
+				DD89013B1E331FB700AC65D2 /* LaunchScreen.storyboard */,
+				DD89013E1E331FB700AC65D2 /* Info.plist */,
+				DD8901361E331FB700AC65D2 /* Eny_Hackathon.xcdatamodeld */,
+			);
+			path = "Eny Hackathon";
+			sourceTree = "<group>";
+		};
+		DD8901461E331FB700AC65D2 /* Eny HackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD8901471E331FB700AC65D2 /* Eny_HackathonTests.swift */,
+				DD8901491E331FB700AC65D2 /* Info.plist */,
+			);
+			path = "Eny HackathonTests";
+			sourceTree = "<group>";
+		};
+		DD8901521E3320A600AC65D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DD8901531E3320BF00AC65D2 /* JKAbode-Demo.ttf */,
+				DD8901581E33270900AC65D2 /* Eurostile.ttf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DD8901551E33227D00AC65D2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DD8901311E331FB700AC65D2 /* PairVC.swift */,
+				DD8901691E33EE5D00AC65D2 /* BuyVC */,
+				DD8901701E340D2600AC65D2 /* ShopVC */,
+				DD8901601E33CEA700AC65D2 /* MenuVC */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DD8901601E33CEA700AC65D2 /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				DD89015E1E33A47E00AC65D2 /* MenuVC.swift */,
+				DD8901611E33CEBD00AC65D2 /* MenuVC + CollectionView.swift */,
+			);
+			name = MenuVC;
+			sourceTree = "<group>";
+		};
+		DD8901631E33CF1600AC65D2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DD8901641E33CF2000AC65D2 /* MenuCell.swift */,
+				DD89016C1E33F05400AC65D2 /* ProductCell.swift */,
+				DD8901731E341C3400AC65D2 /* PurchasedCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DD8901661E33CF5D00AC65D2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DD8901671E33CF6900AC65D2 /* PresetDataModel.swift */,
+				DD89016E1E33F83A00AC65D2 /* ProductDataModel.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DD8901691E33EE5D00AC65D2 /* BuyVC */ = {
+			isa = PBXGroup;
+			children = (
+				DD89015A1E3331EE00AC65D2 /* BuyVC.swift */,
+				DD89016A1E33EE6A00AC65D2 /* BuyVC + CollectionView.swift */,
+			);
+			name = BuyVC;
+			sourceTree = "<group>";
+		};
+		DD8901701E340D2600AC65D2 /* ShopVC */ = {
+			isa = PBXGroup;
+			children = (
+				DD89015C1E33A33F00AC65D2 /* ShopVC.swift */,
+				DD8901711E340D4600AC65D2 /* ShopVC + CollectionView.swift */,
+			);
+			name = ShopVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD89012B1E331FB700AC65D2 /* Eny Hackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD89014C1E331FB700AC65D2 /* Build configuration list for PBXNativeTarget "Eny Hackathon" */;
+			buildPhases = (
+				DD8901281E331FB700AC65D2 /* Sources */,
+				DD8901291E331FB700AC65D2 /* Frameworks */,
+				DD89012A1E331FB700AC65D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eny Hackathon";
+			productName = "Eny Hackathon";
+			productReference = DD89012C1E331FB700AC65D2 /* Eny Hackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD8901421E331FB700AC65D2 /* Eny HackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD89014F1E331FB700AC65D2 /* Build configuration list for PBXNativeTarget "Eny HackathonTests" */;
+			buildPhases = (
+				DD89013F1E331FB700AC65D2 /* Sources */,
+				DD8901401E331FB700AC65D2 /* Frameworks */,
+				DD8901411E331FB700AC65D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD8901451E331FB700AC65D2 /* PBXTargetDependency */,
+			);
+			name = "Eny HackathonTests";
+			productName = "Eny HackathonTests";
+			productReference = DD8901431E331FB700AC65D2 /* Eny HackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD8901241E331FB700AC65D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Trevin Wisaksana";
+				TargetAttributes = {
+					DD89012B1E331FB700AC65D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9ME882KZTA;
+						ProvisioningStyle = Automatic;
+					};
+					DD8901421E331FB700AC65D2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9ME882KZTA;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DD89012B1E331FB700AC65D2;
+					};
+				};
+			};
+			buildConfigurationList = DD8901271E331FB700AC65D2 /* Build configuration list for PBXProject "Eny Hackathon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD8901231E331FB700AC65D2;
+			productRefGroup = DD89012D1E331FB700AC65D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD89012B1E331FB700AC65D2 /* Eny Hackathon */,
+				DD8901421E331FB700AC65D2 /* Eny HackathonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD89012A1E331FB700AC65D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8901591E33272500AC65D2 /* Eurostile.ttf in Resources */,
+				DD8901541E3320E100AC65D2 /* JKAbode-Demo.ttf in Resources */,
+				DD89013D1E331FB700AC65D2 /* LaunchScreen.storyboard in Resources */,
+				DD89013A1E331FB700AC65D2 /* Assets.xcassets in Resources */,
+				DD8901351E331FB700AC65D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD8901411E331FB700AC65D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD8901281E331FB700AC65D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD89015B1E3331EE00AC65D2 /* BuyVC.swift in Sources */,
+				DD89016D1E33F05400AC65D2 /* ProductCell.swift in Sources */,
+				DD8901381E331FB700AC65D2 /* Eny_Hackathon.xcdatamodeld in Sources */,
+				DD8901721E340D4600AC65D2 /* ShopVC + CollectionView.swift in Sources */,
+				DD8901321E331FB700AC65D2 /* PairVC.swift in Sources */,
+				DD8901741E341C3400AC65D2 /* PurchasedCell.swift in Sources */,
+				DD8901621E33CEBD00AC65D2 /* MenuVC + CollectionView.swift in Sources */,
+				DD89016B1E33EE6A00AC65D2 /* BuyVC + CollectionView.swift in Sources */,
+				DD8901301E331FB700AC65D2 /* AppDelegate.swift in Sources */,
+				DD89015D1E33A33F00AC65D2 /* ShopVC.swift in Sources */,
+				DD8901651E33CF2000AC65D2 /* MenuCell.swift in Sources */,
+				DD89016F1E33F83A00AC65D2 /* ProductDataModel.swift in Sources */,
+				DD89015F1E33A47E00AC65D2 /* MenuVC.swift in Sources */,
+				DD8901681E33CF6900AC65D2 /* PresetDataModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD89013F1E331FB700AC65D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD8901481E331FB700AC65D2 /* Eny_HackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD8901451E331FB700AC65D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD89012B1E331FB700AC65D2 /* Eny Hackathon */;
+			targetProxy = DD8901441E331FB700AC65D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD8901331E331FB700AC65D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD8901341E331FB700AC65D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD89013B1E331FB700AC65D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD89013C1E331FB700AC65D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD89014A1E331FB700AC65D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD89014B1E331FB700AC65D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD89014D1E331FB700AC65D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ME882KZTA;
+				INFOPLIST_FILE = "Eny Hackathon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trevinwisaksana.Market-Place";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DD89014E1E331FB700AC65D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9ME882KZTA;
+				INFOPLIST_FILE = "Eny Hackathon/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trevinwisaksana.Market-Place";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DD8901501E331FB700AC65D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9ME882KZTA;
+				INFOPLIST_FILE = "Eny HackathonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trevinwisaksana.Eny-HackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eny Hackathon.app/Eny Hackathon";
+			};
+			name = Debug;
+		};
+		DD8901511E331FB700AC65D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 9ME882KZTA;
+				INFOPLIST_FILE = "Eny HackathonTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.trevinwisaksana.Eny-HackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Eny Hackathon.app/Eny Hackathon";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD8901271E331FB700AC65D2 /* Build configuration list for PBXProject "Eny Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD89014A1E331FB700AC65D2 /* Debug */,
+				DD89014B1E331FB700AC65D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD89014C1E331FB700AC65D2 /* Build configuration list for PBXNativeTarget "Eny Hackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD89014D1E331FB700AC65D2 /* Debug */,
+				DD89014E1E331FB700AC65D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD89014F1E331FB700AC65D2 /* Build configuration list for PBXNativeTarget "Eny HackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8901501E331FB700AC65D2 /* Debug */,
+				DD8901511E331FB700AC65D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD8901361E331FB700AC65D2 /* Eny_Hackathon.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD8901371E331FB700AC65D2 /* Eny_Hackathon.xcdatamodel */,
+			);
+			currentVersion = DD8901371E331FB700AC65D2 /* Eny_Hackathon.xcdatamodel */;
+			path = Eny_Hackathon.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD8901241E331FB700AC65D2 /* Project object */;
+}
